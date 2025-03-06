@@ -1,0 +1,39 @@
+.complaints-container {
+    padding: 20px;
+}
+
+.complaints-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.complaint-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+    background-color: #f9f9f9;
+}
+
+.complaint-card h3 {
+    margin: 0 0 10px;
+    color: #333;
+}
+
+.complaint-card p {
+    margin: 5px 0;
+}
+
+.documents ul {
+    padding-left: 20px;
+}
+
+.documents a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.documents a:hover {
+    text-decoration: underline;
+}
